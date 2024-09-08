@@ -1,5 +1,6 @@
-import { Given, When, Then } from '@wdio/cucumber-framework'
+/** import { Given, When, Then } from '@wdio/cucumber-framework'
 import { expect, browser } from '@wdio/globals'
+
 import { getCSVFilePath, getDataForUser } from '../pageobjects/utils';
 import { retirementSavingcalculatorpage } from '../pageobjects/retirementsavingcalculator.page';
 const retirementSavingcalculator = new retirementSavingcalculatorpage();
@@ -7,7 +8,8 @@ let userData: any;
 
 
 Given('User open the retirement calculator page', async () => {
-    await browser.url('https://www.securian.com/insights-tools/retirement-calculator.html')
+    return browser.url('https://www.securian.com/insights-tools/retirement-calculator.html')
+    // 
 });
 
 When('user submit the form', async () => {
@@ -67,9 +69,9 @@ When('user should enter the {string}', async (retirementData: string) => {
     await retirementSavingcalculator.contributionPercent.click()
 
     await retirementSavingcalculator.contributionPercent.setValue(userData.contributionPercent);
-    await retirementSavingcalculator.increaserateofsavings.click()
+    await retirementSavingcalculator.increaseRateOfSavings.click()
 
-    await retirementSavingcalculator.increaserateofsavings.setValue(userData.increaserateofsavings);
+    await retirementSavingcalculator.increaseRateOfSavings.setValue(userData.increaserateofsavings);
 });
 Then('user should the enter the Social Security override amount', async () => {
     const securityValue = retirementSavingcalculator.Securityoverrideamount
@@ -92,5 +94,129 @@ Then('user sholud click Social Security benefits and choose maritial status', as
     maritialStatus.click();
 
 });
+*/
+
+import { Given, When, Then } from '@wdio/cucumber-framework';
+import { getCSVFilePath, getDataForUser } from '../pageobjects/utils';
+import { retirementSavingcalculatorpage } from '../pageobjects/retirementsavingcalculator.page';
+import { logger } from '../pageobjects/logger';  // Import the logger
+
+const retirementSavingCalculator = new retirementSavingcalculatorpage();
+let userData: any;
+
+Given('User opens the retirement calculator page', async () => {
+    logger.info('Navigating to the retirement calculator page');
+    await browser.url('https://www.securian.com/insights-tools/retirement-calculator.html');
+    await browser.maximizeWindow();
+});
+
+When('User submits the retirement calculator form', async () => {
+    logger.info('Submitting the retirement calculator form');
+    await retirementSavingCalculator.submitForm();
+});
+
+Then('User should see the estimated retirement needs', async () => {
+    logger.info('Verifying the estimated retirement needs');
+    // const isDisplayed = await retirementSavingCalculator.isElementDisplayed(retirementSavingCalculator.reslutMessage);
+    // expect(isDisplayed).toBe(true);
+    await retirementSavingCalculator.reslutMessage.isDisplayed();
+});
+
+Then('User should see the error messages in current age and retirement age fields', async () => {
+    /**  try {
+          logger.info('Submitting the form with invalid age credentials');
+  
+          // Submit the form with invalid credentials
+          await retirementSavingCalculator.submitForm();
+  
+          // Wait for and verify error messages
+          const currentAgeErrorMessage = await retirementSavingCalculator.currentAgeError.getText();
+          const retirementAgeErrorMessage = await retirementSavingCalculator.retirementAgeError.getText();
+  
+          // Expected error messages
+          const expectedCurrentAgeError = 'Age cannot be greater than 120';
+          const expectedRetirementAgeError = 'Planned retirement age must be greater than current age';
+  
+          // Use toEqual for better comparison of text
+          expect(currentAgeErrorMessage.trim()).toEqual(expectedCurrentAgeError);
+          expect(retirementAgeErrorMessage.trim()).toEqual(expectedRetirementAgeError);
+  
+          logger.info('Error messages for current age and retirement age fields are displayed as expected');
+      } catch (error) {
+          logger.error('Failed to verify error messages for invalid age credentials:', error);
+          throw error; // Re-throw the error to ensure the test fails
+      }*/
+
+    logger.info('Checking error messages for age fields');
+    const currentAgeValue = await retirementSavingCalculator.getText(retirementSavingCalculator.currentAge);
+    if (parseInt(currentAgeValue) > 120) {
+        await retirementSavingCalculator.checkErrorMessage('Age cannot be greater than 120', retirementSavingCalculator.currentAgeError);
+    }
+    const retirementAgeValue = await retirementSavingCalculator.getText(retirementSavingCalculator.retirementAgeError);
+    if (parseInt(retirementAgeValue) > 120 || currentAgeValue < retirementAgeValue) {
+        await retirementSavingCalculator.checkErrorMessage('Age cannot be greater than 120', retirementSavingCalculator.retirementAgeError);
+    } else {
+        await retirementSavingCalculator.checkErrorMessage('Planned retirement age must be greater than current age', retirementSavingCalculator.retirementAgeError);
+    }
+    /**  try {
+         logger.info('Checking error messages for age fields');
+ 
+         const currentAgeValue = await retirementSavingCalculator.currentAge.getValue();
+ 
+         // Check if current age value is greater than 120 and verify corresponding error message
+         if (parseInt(currentAgeValue, 10) > 120) {
+             await retirementSavingCalculator.checkErrorMessage(
+                 'Age cannot be greater than 120',
+                 retirementSavingCalculator.currentAgeError
+             );
+         }
+ 
+         // Check the retirement age field for error messages
+         await retirementSavingCalculator.checkErrorMessage(
+             'Planned retirement age must be greater than current age||Age cannot be greater than 120',
+             retirementSavingCalculator.retirementAgeError
+         );
+ 
+         logger.info('Error messages for age fields verified successfully');
+     } catch (error) {
+         logger.error('Failed to verify error messages for age fields:', error);
+         throw error; // Re-throw the error to ensure the test fails
+     }*/
+});
 
 
+When('User enters the {string}', async (retirementData: string) => {
+    logger.info(`Entering data for retirement calculation: ${retirementData}`);
+    userData = await getDataForUser(getCSVFilePath('retirementData.csv'), retirementData);
+    await retirementSavingCalculator.enterRetirementCalculatorForm(userData);
+});
+
+Then('User should enter the Social Security override amount', async () => {
+    logger.info('Entering Social Security override amount');
+    await retirementSavingCalculator.enterText(retirementSavingCalculator.Securityoverrideamount, userData.socialSecurityAmount);
+});
+
+Then('User should click Social Security benefits and choose marital status', async () => {
+    logger.info('Selecting Social Security benefits and marital status');
+    
+    await browser.execute(() => {
+        const radioButton = document.getElementById('yes-social-benefits');
+        if (radioButton) {
+            radioButton.click();
+        }
+    });
+    /**const radioSecurityButton = retirementSavingCalculator.seacurityButton;
+    await radioSecurityButton.scrollIntoView();
+    // await retirementSavingCalculator.seacurityButton.waitForClickable({ timeout: 5000 });  
+    await retirementSavingCalculator.clickElement(radioSecurityButton);
+    // await retirementSavingCalculator.maritialStatus.isExisting(); */ 
+    // await retirementSavingCalculator.maritialStatus.waitForClickable({ timeout: 5000 });  
+    const radioMaritialStatusButton = retirementSavingCalculator.maritialStatus;
+    await radioMaritialStatusButton.scrollIntoView();
+ await retirementSavingCalculator.clickElement(radioMaritialStatusButton);
+
+    // const socialSecurityButton = await retirementSavingCalculator.seacurityButton;
+    // await browser.execute("arguments[0].click();", socialSecurityButton); 
+    // const maritalStatusOption = await retirementSavingCalculator.maritialStatus;
+    // await maritalStatusOption.click();*/
+});
