@@ -1,5 +1,6 @@
 import { $ } from '@wdio/globals'
 import { BasePage } from './base.page';
+import { logger } from './logger';
 
 export class retirementSavingcalculatorpage extends BasePage {
     public get currentAge() {
@@ -26,9 +27,7 @@ export class retirementSavingcalculatorpage extends BasePage {
     public get Securityoverrideamount() {
         return $('//*[@id="social-security-override"]');
     }
-    public get seacurityButton() {
-        return $('//label[@for="yes-social-benefits"]');
-    }
+
     public get calculateButton() {
         return $('//*[text()="Calculate"]')
     }
@@ -41,8 +40,17 @@ export class retirementSavingcalculatorpage extends BasePage {
     public get reslutMessage() {
         return $('//*[@id="result-message"]')
     }
+    public get socialSecurityFields() {
+        return $('(//*[@class="row social-security-field"])[1]');
 
-    public get maritialStatus() {
+    }
+    public get seacurityYesButton() {
+        return $('//label[@for="yes-social-benefits"]');
+    }
+    public get securityNoButton() {
+        return $('//label[@for="no-social-benefits"]');
+    }
+    public get maritalStatus() {
         return $('//label[@for="single"]');
     }
     async enterRetirementCalculatorForm(userData: any): Promise<void> {
@@ -57,13 +65,28 @@ export class retirementSavingcalculatorpage extends BasePage {
 
 
     async submitForm(): Promise<void> {
+        logger.info('submitting the retirement calculator form');
         await this.clickElement(this.calculateButton);
     }
-    
+
     async checkErrorMessage(expectedMessage: string, actualElement: ChainablePromiseElement): Promise<void> {
+        logger.info('Checking error messages');
         const actualMessage = await this.getText(actualElement);
         expect(actualMessage).toBe(expectedMessage);
     }
-    
+    async validateAgeErrorMessages() {
+
+        const currentAgeValue = await this.getText(this.currentAge);
+        if (parseInt(currentAgeValue) > 120) {
+            await this.checkErrorMessage('Age cannot be greater than 120', this.currentAgeError);
+        }
+        const retirementAgeValue = await this.getText(this.retirementAgeError);
+        if (parseInt(retirementAgeValue) > 120 || currentAgeValue < retirementAgeValue) {
+            await this.checkErrorMessage('Age cannot be greater than 120', this.retirementAgeError);
+        } else {
+            await this.checkErrorMessage('Planned retirement age must be greater than current age', this.retirementAgeError);
+        }
+    }
+
 
 }

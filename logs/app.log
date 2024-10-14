@@ -1015,3 +1015,728 @@ Received: [31m"[7mAge canno[27mt be greater than [7m120[27m"[39m
 2024-09-08 02:44:15 [INFO]: Submitting the retirement calculator form
 2024-09-08 02:44:16 [INFO]: Clicked on [object Promise]
 2024-09-08 02:44:16 [INFO]: Verifying the estimated retirement needs
+2024-10-03 14:17:57 [INFO]: Navigating to the retirement calculator page
+2024-10-03 14:18:04 [INFO]: Entering data for retirement calculation: validuser1
+2024-10-03 14:18:05 [INFO]: Entered value '55' into [object Promise]
+2024-10-03 14:18:06 [INFO]: Entered value '65' into [object Promise]
+2024-10-03 14:18:06 [INFO]: Entered value '500000' into [object Promise]
+2024-10-03 14:18:07 [INFO]: Entered value '30000' into [object Promise]
+2024-10-03 14:18:07 [INFO]: Entered value '5000000' into [object Promise]
+2024-10-03 14:18:07 [INFO]: Entered value '10' into [object Promise]
+2024-10-03 14:18:08 [INFO]: Entered value '5' into [object Promise]
+2024-10-03 14:18:08 [INFO]: Submitting the retirement calculator form
+2024-10-03 14:18:08 [INFO]: Clicked on [object Promise]
+2024-10-03 14:18:08 [INFO]: Verifying the estimated retirement needs
+2024-10-03 14:18:09 [INFO]: Navigating to the retirement calculator page
+2024-10-03 14:18:12 [INFO]: Entering data for retirement calculation: invalideage
+2024-10-03 14:18:12 [INFO]: Entered value '140' into [object Promise]
+2024-10-03 14:18:13 [INFO]: Entered value '130' into [object Promise]
+2024-10-03 14:18:13 [INFO]: Entered value '400' into [object Promise]
+2024-10-03 14:18:13 [INFO]: Entered value '25000' into [object Promise]
+2024-10-03 14:18:14 [INFO]: Entered value '25' into [object Promise]
+2024-10-03 14:18:14 [INFO]: Entered value '6' into [object Promise]
+2024-10-03 14:18:14 [INFO]: Entered value '8' into [object Promise]
+2024-10-03 14:18:14 [INFO]: Submitting the retirement calculator form
+2024-10-03 14:18:14 [INFO]: Clicked on [object Promise]
+2024-10-03 14:18:14 [INFO]: Checking error messages for age fields
+2024-10-03 14:18:14 [INFO]: Text from [object Promise] is ''
+2024-10-03 14:18:14 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-03 14:18:15 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-03 14:18:15 [INFO]: Navigating to the retirement calculator page
+2024-10-03 14:18:17 [INFO]: Entering data for retirement calculation: invalideretireage
+2024-10-03 14:18:18 [INFO]: Entered value '149' into [object Promise]
+2024-10-03 14:18:18 [INFO]: Entered value '121' into [object Promise]
+2024-10-03 14:18:18 [INFO]: Entered value '500' into [object Promise]
+2024-10-03 14:18:18 [INFO]: Entered value '30000' into [object Promise]
+2024-10-03 14:18:18 [INFO]: Entered value '50' into [object Promise]
+2024-10-03 14:18:19 [INFO]: Entered value '10' into [object Promise]
+2024-10-03 14:18:19 [INFO]: Entered value '5' into [object Promise]
+2024-10-03 14:18:19 [INFO]: Submitting the retirement calculator form
+2024-10-03 14:18:19 [INFO]: Clicked on [object Promise]
+2024-10-03 14:18:19 [INFO]: Checking error messages for age fields
+2024-10-03 14:18:19 [INFO]: Text from [object Promise] is ''
+2024-10-03 14:18:19 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-03 14:18:19 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-03 14:18:19 [INFO]: Navigating to the retirement calculator page
+2024-10-03 14:18:22 [INFO]: Entering data for retirement calculation: validuser2
+2024-10-03 14:18:23 [INFO]: Entered value '40' into [object Promise]
+2024-10-03 14:18:23 [INFO]: Entered value '65' into [object Promise]
+2024-10-03 14:18:23 [INFO]: Entered value '20000' into [object Promise]
+2024-10-03 14:18:23 [INFO]: Entered value '89999' into [object Promise]
+2024-10-03 14:18:23 [INFO]: Entered value '667778' into [object Promise]
+2024-10-03 14:18:23 [INFO]: Entered value '78' into [object Promise]
+2024-10-03 14:18:24 [INFO]: Entered value '10' into [object Promise]
+2024-10-03 14:18:24 [INFO]: Selecting Social Security benefits and marital status
+2024-10-03 14:18:29 [INFO]: Clicked on [object Promise]
+2024-10-03 14:18:29 [INFO]: Entering Social Security override amount
+2024-10-03 14:18:29 [INFO]: Entered value '100' into [object Promise]
+2024-10-03 14:18:29 [INFO]: Submitting the retirement calculator form
+2024-10-03 14:18:29 [INFO]: Clicked on [object Promise]
+2024-10-03 14:18:29 [INFO]: Verifying the estimated retirement needs
+2024-10-03 14:18:29 [INFO]: Navigating to the retirement calculator page
+2024-10-03 14:18:32 [INFO]: Entering data for retirement calculation: validuser3
+2024-10-03 14:18:33 [INFO]: Entered value '30' into [object Promise]
+2024-10-03 14:18:33 [INFO]: Entered value '65' into [object Promise]
+2024-10-03 14:18:34 [INFO]: Entered value '150000' into [object Promise]
+2024-10-03 14:18:34 [INFO]: Entered value '0' into [object Promise]
+2024-10-03 14:18:34 [INFO]: Entered value '788888' into [object Promise]
+2024-10-03 14:18:35 [INFO]: Entered value '999889' into [object Promise]
+2024-10-03 14:18:35 [INFO]: Entered value '10' into [object Promise]
+2024-10-03 14:18:35 [INFO]: Selecting Social Security benefits and marital status
+2024-10-03 14:18:40 [INFO]: Clicked on [object Promise]
+2024-10-03 14:18:40 [INFO]: Entering Social Security override amount
+2024-10-03 14:18:40 [INFO]: Entered value '3999' into [object Promise]
+2024-10-03 14:18:40 [INFO]: Submitting the retirement calculator form
+2024-10-03 14:18:40 [INFO]: Clicked on [object Promise]
+2024-10-03 14:18:40 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:35:23 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:35:51 [INFO]: Entering data for retirement calculation: validuser1
+2024-10-05 16:35:52 [INFO]: Entered value '55' into [object Promise]
+2024-10-05 16:35:54 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 16:35:54 [INFO]: Entered value '500000' into [object Promise]
+2024-10-05 16:35:55 [INFO]: Entered value '30000' into [object Promise]
+2024-10-05 16:35:55 [INFO]: Entered value '5000000' into [object Promise]
+2024-10-05 16:35:55 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:35:55 [INFO]: Entered value '5' into [object Promise]
+2024-10-05 16:35:55 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:35:55 [INFO]: Clicked on [object Promise]
+2024-10-05 16:35:55 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:35:56 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:35:59 [INFO]: Entering data for retirement calculation: invalideage
+2024-10-05 16:36:00 [INFO]: Entered value '140' into [object Promise]
+2024-10-05 16:36:00 [INFO]: Entered value '130' into [object Promise]
+2024-10-05 16:36:00 [INFO]: Entered value '400' into [object Promise]
+2024-10-05 16:36:00 [INFO]: Entered value '25000' into [object Promise]
+2024-10-05 16:36:01 [INFO]: Entered value '25' into [object Promise]
+2024-10-05 16:36:01 [INFO]: Entered value '6' into [object Promise]
+2024-10-05 16:36:01 [INFO]: Entered value '8' into [object Promise]
+2024-10-05 16:36:01 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:36:01 [INFO]: Clicked on [object Promise]
+2024-10-05 16:36:01 [INFO]: Checking error messages for age fields
+2024-10-05 16:36:01 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:36:04 [INFO]: Entering data for retirement calculation: invalideretireage
+2024-10-05 16:36:05 [INFO]: Entered value '149' into [object Promise]
+2024-10-05 16:36:05 [INFO]: Entered value '121' into [object Promise]
+2024-10-05 16:36:05 [INFO]: Entered value '500' into [object Promise]
+2024-10-05 16:36:06 [INFO]: Entered value '30000' into [object Promise]
+2024-10-05 16:36:06 [INFO]: Entered value '50' into [object Promise]
+2024-10-05 16:36:06 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:36:06 [INFO]: Entered value '5' into [object Promise]
+2024-10-05 16:36:06 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:36:06 [INFO]: Clicked on [object Promise]
+2024-10-05 16:36:06 [INFO]: Checking error messages for age fields
+2024-10-05 16:36:06 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:36:09 [INFO]: Entering data for retirement calculation: validuser2
+2024-10-05 16:36:10 [INFO]: Entered value '40' into [object Promise]
+2024-10-05 16:36:11 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 16:36:11 [INFO]: Entered value '20000' into [object Promise]
+2024-10-05 16:36:11 [INFO]: Entered value '89999' into [object Promise]
+2024-10-05 16:36:11 [INFO]: Entered value '667778' into [object Promise]
+2024-10-05 16:36:12 [INFO]: Entered value '78' into [object Promise]
+2024-10-05 16:36:12 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:36:12 [INFO]: Selecting Social Security benefits and marital status
+2024-10-05 16:36:17 [INFO]: Clicked on [object Promise]
+2024-10-05 16:36:17 [INFO]: Entering Social Security override amount
+2024-10-05 16:36:18 [INFO]: Entered value '100' into [object Promise]
+2024-10-05 16:36:18 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:36:18 [INFO]: Clicked on [object Promise]
+2024-10-05 16:36:18 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:36:18 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:36:20 [INFO]: Entering data for retirement calculation: validuser3
+2024-10-05 16:36:21 [INFO]: Entered value '30' into [object Promise]
+2024-10-05 16:36:21 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 16:36:21 [INFO]: Entered value '150000' into [object Promise]
+2024-10-05 16:36:21 [INFO]: Entered value '0' into [object Promise]
+2024-10-05 16:36:22 [INFO]: Entered value '788888' into [object Promise]
+2024-10-05 16:36:22 [INFO]: Entered value '999889' into [object Promise]
+2024-10-05 16:36:22 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:36:22 [INFO]: Selecting Social Security benefits and marital status
+2024-10-05 16:36:27 [INFO]: Clicked on [object Promise]
+2024-10-05 16:36:27 [INFO]: Entering Social Security override amount
+2024-10-05 16:36:27 [INFO]: Entered value '3999' into [object Promise]
+2024-10-05 16:36:27 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:36:27 [INFO]: Clicked on [object Promise]
+2024-10-05 16:36:27 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:38:59 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:39:05 [INFO]: Entering data for retirement calculation: validuser1
+2024-10-05 16:39:06 [INFO]: Entered value '55' into [object Promise]
+2024-10-05 16:39:07 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 16:39:07 [INFO]: Entered value '500000' into [object Promise]
+2024-10-05 16:39:07 [INFO]: Entered value '30000' into [object Promise]
+2024-10-05 16:39:07 [INFO]: Entered value '5000000' into [object Promise]
+2024-10-05 16:39:07 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:39:07 [INFO]: Entered value '5' into [object Promise]
+2024-10-05 16:39:07 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:39:08 [INFO]: Clicked on [object Promise]
+2024-10-05 16:39:08 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:39:08 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:39:10 [INFO]: Entering data for retirement calculation: invalideage
+2024-10-05 16:39:11 [INFO]: Entered value '140' into [object Promise]
+2024-10-05 16:39:11 [INFO]: Entered value '130' into [object Promise]
+2024-10-05 16:39:11 [INFO]: Entered value '400' into [object Promise]
+2024-10-05 16:39:12 [INFO]: Entered value '25000' into [object Promise]
+2024-10-05 16:39:12 [INFO]: Entered value '25' into [object Promise]
+2024-10-05 16:39:12 [INFO]: Entered value '6' into [object Promise]
+2024-10-05 16:39:12 [INFO]: Entered value '8' into [object Promise]
+2024-10-05 16:39:12 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:39:12 [INFO]: Clicked on [object Promise]
+2024-10-05 16:39:12 [INFO]: Checking error messages for age fields
+2024-10-05 16:39:12 [INFO]: Text from [object Promise] is ''
+2024-10-05 16:39:12 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-05 16:39:12 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-05 16:39:12 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:39:15 [INFO]: Entering data for retirement calculation: invalideretireage
+2024-10-05 16:39:15 [INFO]: Entered value '149' into [object Promise]
+2024-10-05 16:39:16 [INFO]: Entered value '121' into [object Promise]
+2024-10-05 16:39:16 [INFO]: Entered value '500' into [object Promise]
+2024-10-05 16:39:16 [INFO]: Entered value '30000' into [object Promise]
+2024-10-05 16:39:16 [INFO]: Entered value '50' into [object Promise]
+2024-10-05 16:39:16 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:39:16 [INFO]: Entered value '5' into [object Promise]
+2024-10-05 16:39:16 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:39:17 [INFO]: Clicked on [object Promise]
+2024-10-05 16:39:17 [INFO]: Checking error messages for age fields
+2024-10-05 16:39:17 [INFO]: Text from [object Promise] is ''
+2024-10-05 16:39:17 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-05 16:39:17 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-05 16:39:17 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:39:20 [INFO]: Entering data for retirement calculation: validuser2
+2024-10-05 16:39:20 [INFO]: Entered value '40' into [object Promise]
+2024-10-05 16:39:20 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 16:39:20 [INFO]: Entered value '20000' into [object Promise]
+2024-10-05 16:39:20 [INFO]: Entered value '89999' into [object Promise]
+2024-10-05 16:39:21 [INFO]: Entered value '667778' into [object Promise]
+2024-10-05 16:39:21 [INFO]: Entered value '78' into [object Promise]
+2024-10-05 16:39:21 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:39:21 [INFO]: Selecting Social Security benefits and marital status
+2024-10-05 16:39:26 [INFO]: Clicked on [object Promise]
+2024-10-05 16:39:26 [INFO]: Entering Social Security override amount
+2024-10-05 16:39:26 [INFO]: Entered value '100' into [object Promise]
+2024-10-05 16:39:26 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:39:26 [INFO]: Clicked on [object Promise]
+2024-10-05 16:39:26 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:39:26 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:39:29 [INFO]: Entering data for retirement calculation: validuser3
+2024-10-05 16:39:29 [INFO]: Entered value '30' into [object Promise]
+2024-10-05 16:39:29 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 16:39:29 [INFO]: Entered value '150000' into [object Promise]
+2024-10-05 16:39:30 [INFO]: Entered value '0' into [object Promise]
+2024-10-05 16:39:30 [INFO]: Entered value '788888' into [object Promise]
+2024-10-05 16:39:30 [INFO]: Entered value '999889' into [object Promise]
+2024-10-05 16:39:31 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:39:31 [INFO]: Selecting Social Security benefits and marital status
+2024-10-05 16:39:36 [INFO]: Clicked on [object Promise]
+2024-10-05 16:39:36 [INFO]: Entering Social Security override amount
+2024-10-05 16:39:36 [INFO]: Entered value '3999' into [object Promise]
+2024-10-05 16:39:36 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:39:36 [INFO]: Clicked on [object Promise]
+2024-10-05 16:39:36 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:48:18 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:48:24 [INFO]: Entering data for retirement calculation: validuser1
+2024-10-05 16:48:25 [INFO]: Entered value '55' into [object Promise]
+2024-10-05 16:48:26 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 16:48:26 [INFO]: Entered value '500000' into [object Promise]
+2024-10-05 16:48:26 [INFO]: Entered value '30000' into [object Promise]
+2024-10-05 16:48:26 [INFO]: Entered value '5000000' into [object Promise]
+2024-10-05 16:48:27 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:48:27 [INFO]: Entered value '5' into [object Promise]
+2024-10-05 16:48:27 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:48:27 [INFO]: Clicked on [object Promise]
+2024-10-05 16:48:27 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:48:27 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:48:30 [INFO]: Entering data for retirement calculation: invalideage
+2024-10-05 16:48:30 [INFO]: Entered value '140' into [object Promise]
+2024-10-05 16:48:30 [INFO]: Entered value '130' into [object Promise]
+2024-10-05 16:48:30 [INFO]: Entered value '400' into [object Promise]
+2024-10-05 16:48:31 [INFO]: Entered value '25000' into [object Promise]
+2024-10-05 16:48:31 [INFO]: Entered value '25' into [object Promise]
+2024-10-05 16:48:31 [INFO]: Entered value '6' into [object Promise]
+2024-10-05 16:48:31 [INFO]: Entered value '8' into [object Promise]
+2024-10-05 16:48:31 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:48:31 [INFO]: Clicked on [object Promise]
+2024-10-05 16:48:31 [INFO]: Checking error messages for age fields
+2024-10-05 16:48:31 [INFO]: Text from [object Promise] is ''
+2024-10-05 16:48:31 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-05 16:48:31 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-05 16:48:31 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:48:34 [INFO]: Entering data for retirement calculation: invalideretireage
+2024-10-05 16:48:35 [INFO]: Entered value '149' into [object Promise]
+2024-10-05 16:48:35 [INFO]: Entered value '121' into [object Promise]
+2024-10-05 16:48:35 [INFO]: Entered value '500' into [object Promise]
+2024-10-05 16:48:35 [INFO]: Entered value '30000' into [object Promise]
+2024-10-05 16:48:35 [INFO]: Entered value '50' into [object Promise]
+2024-10-05 16:48:36 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:48:36 [INFO]: Entered value '5' into [object Promise]
+2024-10-05 16:48:36 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:48:36 [INFO]: Clicked on [object Promise]
+2024-10-05 16:48:36 [INFO]: Checking error messages for age fields
+2024-10-05 16:48:36 [INFO]: Text from [object Promise] is ''
+2024-10-05 16:48:36 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-05 16:48:36 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-05 16:48:36 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:48:39 [INFO]: Entering data for retirement calculation: validuser2
+2024-10-05 16:48:39 [INFO]: Entered value '40' into [object Promise]
+2024-10-05 16:48:39 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 16:48:39 [INFO]: Entered value '20000' into [object Promise]
+2024-10-05 16:48:40 [INFO]: Entered value '89999' into [object Promise]
+2024-10-05 16:48:40 [INFO]: Entered value '667778' into [object Promise]
+2024-10-05 16:48:40 [INFO]: Entered value '78' into [object Promise]
+2024-10-05 16:48:40 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:48:40 [INFO]: Selecting Social Security benefits and marital status
+2024-10-05 16:48:45 [INFO]: Clicked on [object Promise]
+2024-10-05 16:48:45 [INFO]: Entering Social Security override amount
+2024-10-05 16:48:45 [INFO]: Entered value '100' into [object Promise]
+2024-10-05 16:48:45 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:48:45 [INFO]: Clicked on [object Promise]
+2024-10-05 16:48:45 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:48:45 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:48:50 [INFO]: Entering data for retirement calculation: validuser3
+2024-10-05 16:48:50 [INFO]: Entered value '30' into [object Promise]
+2024-10-05 16:48:50 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 16:48:51 [INFO]: Entered value '150000' into [object Promise]
+2024-10-05 16:48:51 [INFO]: Entered value '0' into [object Promise]
+2024-10-05 16:48:51 [INFO]: Entered value '788888' into [object Promise]
+2024-10-05 16:48:52 [INFO]: Entered value '999889' into [object Promise]
+2024-10-05 16:48:52 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:48:52 [INFO]: Selecting Social Security benefits and marital status
+2024-10-05 16:48:58 [INFO]: Clicked on [object Promise]
+2024-10-05 16:48:58 [INFO]: Entering Social Security override amount
+2024-10-05 16:48:58 [INFO]: Entered value '3999' into [object Promise]
+2024-10-05 16:48:58 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:48:58 [INFO]: Clicked on [object Promise]
+2024-10-05 16:48:58 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:55:39 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:56:04 [INFO]: Entering data for retirement calculation: validuser1
+2024-10-05 16:56:04 [INFO]: Entered value '55' into [object Promise]
+2024-10-05 16:56:04 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 16:56:04 [INFO]: Entered value '500000' into [object Promise]
+2024-10-05 16:56:05 [INFO]: Entered value '30000' into [object Promise]
+2024-10-05 16:56:05 [INFO]: Entered value '5000000' into [object Promise]
+2024-10-05 16:56:05 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:56:05 [INFO]: Entered value '5' into [object Promise]
+2024-10-05 16:56:05 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:56:05 [INFO]: Clicked on [object Promise]
+2024-10-05 16:56:05 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:56:05 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:56:08 [INFO]: Entering data for retirement calculation: invalideage
+2024-10-05 16:56:08 [INFO]: Entered value '140' into [object Promise]
+2024-10-05 16:56:08 [INFO]: Entered value '130' into [object Promise]
+2024-10-05 16:56:08 [INFO]: Entered value '400' into [object Promise]
+2024-10-05 16:56:09 [INFO]: Entered value '25000' into [object Promise]
+2024-10-05 16:56:09 [INFO]: Entered value '25' into [object Promise]
+2024-10-05 16:56:09 [INFO]: Entered value '6' into [object Promise]
+2024-10-05 16:56:09 [INFO]: Entered value '8' into [object Promise]
+2024-10-05 16:56:09 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:56:09 [INFO]: Clicked on [object Promise]
+2024-10-05 16:56:09 [INFO]: Checking error messages for age fields
+2024-10-05 16:56:09 [INFO]: Text from [object Promise] is ''
+2024-10-05 16:56:09 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-05 16:56:09 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-05 16:56:09 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:56:32 [INFO]: Entering data for retirement calculation: invalideretireage
+2024-10-05 16:56:32 [INFO]: Entered value '149' into [object Promise]
+2024-10-05 16:56:33 [INFO]: Entered value '121' into [object Promise]
+2024-10-05 16:56:33 [INFO]: Entered value '500' into [object Promise]
+2024-10-05 16:56:33 [INFO]: Entered value '30000' into [object Promise]
+2024-10-05 16:56:33 [INFO]: Entered value '50' into [object Promise]
+2024-10-05 16:56:33 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:56:33 [INFO]: Entered value '5' into [object Promise]
+2024-10-05 16:56:33 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:56:34 [INFO]: Clicked on [object Promise]
+2024-10-05 16:56:34 [INFO]: Checking error messages for age fields
+2024-10-05 16:56:34 [INFO]: Text from [object Promise] is ''
+2024-10-05 16:56:34 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-05 16:56:34 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-05 16:56:34 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:56:37 [INFO]: Entering data for retirement calculation: validuser2
+2024-10-05 16:56:37 [INFO]: Entered value '40' into [object Promise]
+2024-10-05 16:56:37 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 16:56:37 [INFO]: Entered value '20000' into [object Promise]
+2024-10-05 16:56:37 [INFO]: Entered value '89999' into [object Promise]
+2024-10-05 16:56:37 [INFO]: Entered value '667778' into [object Promise]
+2024-10-05 16:56:38 [INFO]: Entered value '78' into [object Promise]
+2024-10-05 16:56:38 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:56:38 [INFO]: Selecting Social Security benefits and marital status
+2024-10-05 16:56:43 [INFO]: Clicked on [object Promise]
+2024-10-05 16:56:43 [INFO]: Entering Social Security override amount
+2024-10-05 16:56:43 [INFO]: Entered value '100' into [object Promise]
+2024-10-05 16:56:43 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:56:43 [INFO]: Clicked on [object Promise]
+2024-10-05 16:56:43 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:56:43 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:57:05 [INFO]: Entering data for retirement calculation: validuser1
+2024-10-05 16:57:06 [INFO]: Entered value '55' into [object Promise]
+2024-10-05 16:57:06 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 16:57:06 [INFO]: Entered value '500000' into [object Promise]
+2024-10-05 16:57:06 [INFO]: Entered value '30000' into [object Promise]
+2024-10-05 16:57:06 [INFO]: Entered value '5000000' into [object Promise]
+2024-10-05 16:57:07 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:57:07 [INFO]: Entered value '5' into [object Promise]
+2024-10-05 16:57:07 [INFO]: Selecting Social Security benefits and marital status
+2024-10-05 16:57:11 [INFO]: Clicked on [object Promise]
+2024-10-05 16:57:11 [INFO]: Entering Social Security override amount
+2024-10-05 16:57:12 [INFO]: Entered value '' into [object Promise]
+2024-10-05 16:57:12 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:57:12 [INFO]: Clicked on [object Promise]
+2024-10-05 16:57:12 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:57:12 [INFO]: Navigating to the retirement calculator page
+2024-10-05 16:57:34 [INFO]: Entering data for retirement calculation: validuser3
+2024-10-05 16:57:34 [INFO]: Entered value '30' into [object Promise]
+2024-10-05 16:57:34 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 16:57:34 [INFO]: Entered value '150000' into [object Promise]
+2024-10-05 16:57:34 [INFO]: Entered value '0' into [object Promise]
+2024-10-05 16:57:35 [INFO]: Entered value '788888' into [object Promise]
+2024-10-05 16:57:35 [INFO]: Entered value '999889' into [object Promise]
+2024-10-05 16:57:35 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 16:57:35 [INFO]: Selecting Social Security benefits and marital status
+2024-10-05 16:57:35 [INFO]: Clicked on [object Promise]
+2024-10-05 16:57:35 [INFO]: Entering Social Security override amount
+2024-10-05 16:57:36 [INFO]: Entered value '3999' into [object Promise]
+2024-10-05 16:57:36 [INFO]: Submitting the retirement calculator form
+2024-10-05 16:57:36 [INFO]: Clicked on [object Promise]
+2024-10-05 16:57:36 [INFO]: Verifying the estimated retirement needs
+2024-10-05 16:59:43 [INFO]: Navigating to the retirement calculator page
+2024-10-05 17:00:08 [INFO]: Entering data for retirement calculation: validuser2
+2024-10-05 17:00:08 [INFO]: Entered value '40' into [object Promise]
+2024-10-05 17:00:08 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 17:00:09 [INFO]: Entered value '20000' into [object Promise]
+2024-10-05 17:00:09 [INFO]: Entered value '89999' into [object Promise]
+2024-10-05 17:00:09 [INFO]: Entered value '667778' into [object Promise]
+2024-10-05 17:00:09 [INFO]: Entered value '78' into [object Promise]
+2024-10-05 17:00:09 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 17:00:09 [INFO]: Selecting Social Security benefits and marital status
+2024-10-05 17:00:14 [INFO]: Clicked on [object Promise]
+2024-10-05 17:00:14 [INFO]: Entering Social Security override amount
+2024-10-05 17:00:14 [INFO]: Entered value '100' into [object Promise]
+2024-10-05 17:00:14 [INFO]: Submitting the retirement calculator form
+2024-10-05 17:00:14 [INFO]: Clicked on [object Promise]
+2024-10-05 17:00:14 [INFO]: Verifying the estimated retirement needs
+2024-10-05 17:00:14 [INFO]: Navigating to the retirement calculator page
+2024-10-05 17:00:16 [INFO]: Entering data for retirement calculation: validuser1
+2024-10-05 17:00:16 [INFO]: Entered value '55' into [object Promise]
+2024-10-05 17:00:17 [INFO]: Entered value '65' into [object Promise]
+2024-10-05 17:00:17 [INFO]: Entered value '500000' into [object Promise]
+2024-10-05 17:00:17 [INFO]: Entered value '30000' into [object Promise]
+2024-10-05 17:00:18 [INFO]: Entered value '5000000' into [object Promise]
+2024-10-05 17:00:18 [INFO]: Entered value '10' into [object Promise]
+2024-10-05 17:00:18 [INFO]: Entered value '5' into [object Promise]
+2024-10-05 17:00:18 [INFO]: Selecting Social Security benefits and marital status
+2024-10-05 17:00:23 [INFO]: Clicked on [object Promise]
+2024-10-05 17:00:23 [INFO]: Entering Social Security override amount
+2024-10-05 17:00:23 [INFO]: Entered value '' into [object Promise]
+2024-10-05 17:00:23 [INFO]: Submitting the retirement calculator form
+2024-10-05 17:00:23 [INFO]: Clicked on [object Promise]
+2024-10-05 17:00:23 [INFO]: Verifying the estimated retirement needs
+2024-10-14 19:18:50 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:18:57 [INFO]: Selecting "Yes" for social security field
+2024-10-14 19:18:58 [INFO]: Verifying if social security fields are visible
+2024-10-14 19:18:58 [INFO]: Social security fields are visible as expected
+2024-10-14 19:18:58 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:19:00 [INFO]: Selecting "No" for social security field
+2024-10-14 19:19:01 [INFO]: Verifying if social security fields are not visible
+2024-10-14 19:19:01 [INFO]: Social security fields are hidden as expected
+2024-10-14 19:28:20 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:28:28 [INFO]: Selecting "Yes" for social security field
+2024-10-14 19:28:28 [INFO]: Verifying if social security fields are visible
+2024-10-14 19:28:28 [INFO]: Social security fields are visible as expected
+2024-10-14 19:28:28 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:28:32 [INFO]: Selecting "No" for social security field
+2024-10-14 19:28:32 [INFO]: Verifying if social security fields are not visible
+2024-10-14 19:28:32 [INFO]: Social security fields are hidden as expected
+2024-10-14 19:31:54 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:32:03 [INFO]: Entering data for retirement calculation: validuser1
+2024-10-14 19:32:04 [INFO]: Entered value '55' into [object Promise]
+2024-10-14 19:32:04 [INFO]: Entered value '65' into [object Promise]
+2024-10-14 19:32:04 [INFO]: Entered value '500000' into [object Promise]
+2024-10-14 19:32:04 [INFO]: Entered value '30000' into [object Promise]
+2024-10-14 19:32:05 [INFO]: Entered value '5000000' into [object Promise]
+2024-10-14 19:32:05 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 19:32:05 [INFO]: Entered value '5' into [object Promise]
+2024-10-14 19:32:05 [INFO]: Submitting the retirement calculator form
+2024-10-14 19:32:05 [INFO]: submitting the retirement calculator form
+2024-10-14 19:32:05 [INFO]: Clicked on [object Promise]
+2024-10-14 19:32:05 [INFO]: Verifying the estimated retirement needs
+2024-10-14 19:32:06 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:32:08 [INFO]: Entering data for retirement calculation: invalideage
+2024-10-14 19:32:08 [INFO]: Entered value '140' into [object Promise]
+2024-10-14 19:32:09 [INFO]: Entered value '130' into [object Promise]
+2024-10-14 19:32:09 [INFO]: Entered value '400' into [object Promise]
+2024-10-14 19:32:09 [INFO]: Entered value '25000' into [object Promise]
+2024-10-14 19:32:09 [INFO]: Entered value '25' into [object Promise]
+2024-10-14 19:32:09 [INFO]: Entered value '6' into [object Promise]
+2024-10-14 19:32:10 [INFO]: Entered value '8' into [object Promise]
+2024-10-14 19:32:10 [INFO]: Submitting the retirement calculator form
+2024-10-14 19:32:10 [INFO]: submitting the retirement calculator form
+2024-10-14 19:32:10 [INFO]: Clicked on [object Promise]
+2024-10-14 19:32:10 [INFO]: Checking error messages for age fields
+2024-10-14 19:32:10 [INFO]: Text from [object Promise] is ''
+2024-10-14 19:32:10 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-14 19:32:10 [INFO]: Checking error messages
+2024-10-14 19:32:10 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-14 19:32:10 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:32:13 [INFO]: Entering data for retirement calculation: invalideretireage
+2024-10-14 19:32:13 [INFO]: Entered value '149' into [object Promise]
+2024-10-14 19:32:13 [INFO]: Entered value '121' into [object Promise]
+2024-10-14 19:32:14 [INFO]: Entered value '500' into [object Promise]
+2024-10-14 19:32:14 [INFO]: Entered value '30000' into [object Promise]
+2024-10-14 19:32:14 [INFO]: Entered value '50' into [object Promise]
+2024-10-14 19:32:14 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 19:32:15 [INFO]: Entered value '5' into [object Promise]
+2024-10-14 19:32:15 [INFO]: Submitting the retirement calculator form
+2024-10-14 19:32:15 [INFO]: submitting the retirement calculator form
+2024-10-14 19:32:15 [INFO]: Clicked on [object Promise]
+2024-10-14 19:32:15 [INFO]: Checking error messages for age fields
+2024-10-14 19:32:15 [INFO]: Text from [object Promise] is ''
+2024-10-14 19:32:15 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-14 19:32:15 [INFO]: Checking error messages
+2024-10-14 19:32:15 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-14 19:32:15 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:32:17 [INFO]: Entering data for retirement calculation: validuser2
+2024-10-14 19:32:18 [INFO]: Entered value '40' into [object Promise]
+2024-10-14 19:32:18 [INFO]: Entered value '65' into [object Promise]
+2024-10-14 19:32:18 [INFO]: Entered value '20000' into [object Promise]
+2024-10-14 19:32:18 [INFO]: Entered value '89999' into [object Promise]
+2024-10-14 19:32:18 [INFO]: Entered value '667778' into [object Promise]
+2024-10-14 19:32:19 [INFO]: Entered value '78' into [object Promise]
+2024-10-14 19:32:19 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 19:32:19 [INFO]: Selecting Social Security benefits and marital status
+2024-10-14 19:32:24 [INFO]: Clicked on [object Promise]
+2024-10-14 19:32:24 [INFO]: Entering Social Security override amount
+2024-10-14 19:32:24 [INFO]: Entered value '100' into [object Promise]
+2024-10-14 19:32:24 [INFO]: Submitting the retirement calculator form
+2024-10-14 19:32:24 [INFO]: submitting the retirement calculator form
+2024-10-14 19:32:24 [INFO]: Clicked on [object Promise]
+2024-10-14 19:32:24 [INFO]: Verifying the estimated retirement needs
+2024-10-14 19:32:24 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:32:27 [INFO]: Entering data for retirement calculation: validuser1
+2024-10-14 19:32:28 [INFO]: Entered value '55' into [object Promise]
+2024-10-14 19:32:28 [INFO]: Entered value '65' into [object Promise]
+2024-10-14 19:32:28 [INFO]: Entered value '500000' into [object Promise]
+2024-10-14 19:32:29 [INFO]: Entered value '30000' into [object Promise]
+2024-10-14 19:32:29 [INFO]: Entered value '5000000' into [object Promise]
+2024-10-14 19:32:29 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 19:32:30 [INFO]: Entered value '5' into [object Promise]
+2024-10-14 19:32:30 [INFO]: Selecting Social Security benefits and marital status
+2024-10-14 19:32:35 [INFO]: Clicked on [object Promise]
+2024-10-14 19:32:35 [INFO]: Entering Social Security override amount
+2024-10-14 19:32:35 [INFO]: Entered value '' into [object Promise]
+2024-10-14 19:32:35 [INFO]: Submitting the retirement calculator form
+2024-10-14 19:32:35 [INFO]: submitting the retirement calculator form
+2024-10-14 19:32:35 [INFO]: Clicked on [object Promise]
+2024-10-14 19:32:35 [INFO]: Verifying the estimated retirement needs
+2024-10-14 19:32:35 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:32:39 [INFO]: Entering data for retirement calculation: validuser3
+2024-10-14 19:32:39 [INFO]: Entered value '30' into [object Promise]
+2024-10-14 19:32:39 [INFO]: Entered value '65' into [object Promise]
+2024-10-14 19:32:40 [INFO]: Entered value '150000' into [object Promise]
+2024-10-14 19:32:40 [INFO]: Entered value '0' into [object Promise]
+2024-10-14 19:32:40 [INFO]: Entered value '788888' into [object Promise]
+2024-10-14 19:32:40 [INFO]: Entered value '999889' into [object Promise]
+2024-10-14 19:32:41 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 19:32:41 [INFO]: Selecting Social Security benefits and marital status
+2024-10-14 19:32:45 [INFO]: Clicked on [object Promise]
+2024-10-14 19:32:45 [INFO]: Entering Social Security override amount
+2024-10-14 19:32:46 [INFO]: Entered value '3999' into [object Promise]
+2024-10-14 19:32:46 [INFO]: Submitting the retirement calculator form
+2024-10-14 19:32:46 [INFO]: submitting the retirement calculator form
+2024-10-14 19:32:46 [INFO]: Clicked on [object Promise]
+2024-10-14 19:32:46 [INFO]: Verifying the estimated retirement needs
+2024-10-14 19:32:46 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:32:49 [INFO]: Selecting "Yes" for social security field
+2024-10-14 19:32:49 [INFO]: Verifying if social security fields are visible
+2024-10-14 19:32:49 [INFO]: Social security fields are visible as expected
+2024-10-14 19:32:49 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:32:52 [INFO]: Selecting "No" for social security field
+2024-10-14 19:32:52 [INFO]: Verifying if social security fields are not visible
+2024-10-14 19:32:52 [INFO]: Social security fields are hidden as expected
+2024-10-14 19:35:34 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:35:42 [INFO]: Entering data for retirement calculation: validuser1
+2024-10-14 19:35:43 [INFO]: Entered value '55' into [object Promise]
+2024-10-14 19:35:43 [INFO]: Entered value '65' into [object Promise]
+2024-10-14 19:35:43 [INFO]: Entered value '500000' into [object Promise]
+2024-10-14 19:35:44 [INFO]: Entered value '30000' into [object Promise]
+2024-10-14 19:35:44 [INFO]: Entered value '5000000' into [object Promise]
+2024-10-14 19:35:44 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 19:35:45 [INFO]: Entered value '5' into [object Promise]
+2024-10-14 19:35:45 [INFO]: Submitting the retirement calculator form
+2024-10-14 19:35:45 [INFO]: submitting the retirement calculator form
+2024-10-14 19:35:45 [INFO]: Clicked on [object Promise]
+2024-10-14 19:35:45 [INFO]: Verifying the estimated retirement needs
+2024-10-14 19:35:45 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:35:48 [INFO]: Entering data for retirement calculation: invalideage
+2024-10-14 19:35:48 [INFO]: Entered value '140' into [object Promise]
+2024-10-14 19:35:49 [INFO]: Entered value '130' into [object Promise]
+2024-10-14 19:35:49 [INFO]: Entered value '400' into [object Promise]
+2024-10-14 19:35:49 [INFO]: Entered value '25000' into [object Promise]
+2024-10-14 19:35:49 [INFO]: Entered value '25' into [object Promise]
+2024-10-14 19:35:50 [INFO]: Entered value '6' into [object Promise]
+2024-10-14 19:35:50 [INFO]: Entered value '8' into [object Promise]
+2024-10-14 19:35:50 [INFO]: Submitting the retirement calculator form
+2024-10-14 19:35:50 [INFO]: submitting the retirement calculator form
+2024-10-14 19:35:50 [INFO]: Clicked on [object Promise]
+2024-10-14 19:35:50 [INFO]: Checking error messages for age fields
+2024-10-14 19:35:50 [INFO]: Text from [object Promise] is ''
+2024-10-14 19:35:50 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-14 19:35:50 [INFO]: Checking error messages
+2024-10-14 19:35:50 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-14 19:35:50 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:35:54 [INFO]: Entering data for retirement calculation: invalideretireage
+2024-10-14 19:35:54 [INFO]: Entered value '149' into [object Promise]
+2024-10-14 19:35:55 [INFO]: Entered value '121' into [object Promise]
+2024-10-14 19:35:55 [INFO]: Entered value '500' into [object Promise]
+2024-10-14 19:35:55 [INFO]: Entered value '30000' into [object Promise]
+2024-10-14 19:35:55 [INFO]: Entered value '50' into [object Promise]
+2024-10-14 19:35:56 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 19:35:56 [INFO]: Entered value '5' into [object Promise]
+2024-10-14 19:35:56 [INFO]: Submitting the retirement calculator form
+2024-10-14 19:35:56 [INFO]: submitting the retirement calculator form
+2024-10-14 19:35:56 [INFO]: Clicked on [object Promise]
+2024-10-14 19:35:56 [INFO]: Checking error messages for age fields
+2024-10-14 19:35:56 [INFO]: Text from [object Promise] is ''
+2024-10-14 19:35:56 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-14 19:35:56 [INFO]: Checking error messages
+2024-10-14 19:35:56 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-14 19:35:56 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:35:59 [INFO]: Entering data for retirement calculation: validuser2
+2024-10-14 19:35:59 [INFO]: Entered value '40' into [object Promise]
+2024-10-14 19:36:00 [INFO]: Entered value '65' into [object Promise]
+2024-10-14 19:36:00 [INFO]: Entered value '20000' into [object Promise]
+2024-10-14 19:36:00 [INFO]: Entered value '89999' into [object Promise]
+2024-10-14 19:36:01 [INFO]: Entered value '667778' into [object Promise]
+2024-10-14 19:36:01 [INFO]: Entered value '78' into [object Promise]
+2024-10-14 19:36:01 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 19:36:01 [INFO]: Selecting Social Security benefits and marital status
+2024-10-14 19:36:06 [INFO]: Clicked on [object Promise]
+2024-10-14 19:36:06 [INFO]: Entering Social Security override amount
+2024-10-14 19:36:06 [INFO]: Entered value '100' into [object Promise]
+2024-10-14 19:36:06 [INFO]: Submitting the retirement calculator form
+2024-10-14 19:36:06 [INFO]: submitting the retirement calculator form
+2024-10-14 19:36:07 [INFO]: Clicked on [object Promise]
+2024-10-14 19:36:07 [INFO]: Verifying the estimated retirement needs
+2024-10-14 19:36:07 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:36:09 [INFO]: Entering data for retirement calculation: validuser1
+2024-10-14 19:36:10 [INFO]: Entered value '55' into [object Promise]
+2024-10-14 19:36:10 [INFO]: Entered value '65' into [object Promise]
+2024-10-14 19:36:10 [INFO]: Entered value '500000' into [object Promise]
+2024-10-14 19:36:10 [INFO]: Entered value '30000' into [object Promise]
+2024-10-14 19:36:11 [INFO]: Entered value '5000000' into [object Promise]
+2024-10-14 19:36:11 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 19:36:11 [INFO]: Entered value '5' into [object Promise]
+2024-10-14 19:36:11 [INFO]: Selecting Social Security benefits and marital status
+2024-10-14 19:36:16 [INFO]: Clicked on [object Promise]
+2024-10-14 19:36:16 [INFO]: Entering Social Security override amount
+2024-10-14 19:36:16 [INFO]: Entered value '' into [object Promise]
+2024-10-14 19:36:16 [INFO]: Submitting the retirement calculator form
+2024-10-14 19:36:16 [INFO]: submitting the retirement calculator form
+2024-10-14 19:36:16 [INFO]: Clicked on [object Promise]
+2024-10-14 19:36:16 [INFO]: Verifying the estimated retirement needs
+2024-10-14 19:36:17 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:36:19 [INFO]: Entering data for retirement calculation: validuser3
+2024-10-14 19:36:20 [INFO]: Entered value '30' into [object Promise]
+2024-10-14 19:36:20 [INFO]: Entered value '65' into [object Promise]
+2024-10-14 19:36:20 [INFO]: Entered value '150000' into [object Promise]
+2024-10-14 19:36:20 [INFO]: Entered value '0' into [object Promise]
+2024-10-14 19:36:20 [INFO]: Entered value '788888' into [object Promise]
+2024-10-14 19:36:21 [INFO]: Entered value '999889' into [object Promise]
+2024-10-14 19:36:21 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 19:36:21 [INFO]: Selecting Social Security benefits and marital status
+2024-10-14 19:36:26 [INFO]: Clicked on [object Promise]
+2024-10-14 19:36:26 [INFO]: Entering Social Security override amount
+2024-10-14 19:36:26 [INFO]: Entered value '3999' into [object Promise]
+2024-10-14 19:36:26 [INFO]: Submitting the retirement calculator form
+2024-10-14 19:36:26 [INFO]: submitting the retirement calculator form
+2024-10-14 19:36:26 [INFO]: Clicked on [object Promise]
+2024-10-14 19:36:26 [INFO]: Verifying the estimated retirement needs
+2024-10-14 19:36:26 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:36:29 [INFO]: Selecting "Yes" for social security field
+2024-10-14 19:36:29 [INFO]: Verifying if social security fields are visible
+2024-10-14 19:36:29 [INFO]: Social security fields are visible as expected
+2024-10-14 19:36:29 [INFO]: Navigating to the retirement calculator page
+2024-10-14 19:36:32 [INFO]: Selecting "No" for social security field
+2024-10-14 19:36:32 [INFO]: Verifying if social security fields are not visible
+2024-10-14 19:36:32 [INFO]: Social security fields are hidden as expected
+2024-10-14 23:46:51 [INFO]: Navigating to the retirement calculator page
+2024-10-14 23:47:00 [INFO]: Entering data for retirement calculation: validSingleUser
+2024-10-14 23:47:01 [INFO]: Entered value '55' into [object Promise]
+2024-10-14 23:47:01 [INFO]: Entered value '65' into [object Promise]
+2024-10-14 23:47:01 [INFO]: Entered value '500000' into [object Promise]
+2024-10-14 23:47:02 [INFO]: Entered value '30000' into [object Promise]
+2024-10-14 23:47:02 [INFO]: Entered value '5000000' into [object Promise]
+2024-10-14 23:47:02 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 23:47:03 [INFO]: Entered value '5' into [object Promise]
+2024-10-14 23:47:03 [INFO]: Submitting the retirement calculator form
+2024-10-14 23:47:03 [INFO]: submitting the retirement calculator form
+2024-10-14 23:47:03 [INFO]: Clicked on [object Promise]
+2024-10-14 23:47:03 [INFO]: Verifying the estimated retirement needs
+2024-10-14 23:47:03 [INFO]: Navigating to the retirement calculator page
+2024-10-14 23:47:05 [INFO]: Entering data for retirement calculation: validMarriedUser
+2024-10-14 23:47:06 [INFO]: Entered value '40' into [object Promise]
+2024-10-14 23:47:06 [INFO]: Entered value '65' into [object Promise]
+2024-10-14 23:47:06 [INFO]: Entered value '20000' into [object Promise]
+2024-10-14 23:47:06 [INFO]: Entered value '89999' into [object Promise]
+2024-10-14 23:47:07 [INFO]: Entered value '667778' into [object Promise]
+2024-10-14 23:47:07 [INFO]: Entered value '78' into [object Promise]
+2024-10-14 23:47:07 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 23:47:07 [INFO]: Submitting the retirement calculator form
+2024-10-14 23:47:07 [INFO]: submitting the retirement calculator form
+2024-10-14 23:47:07 [INFO]: Clicked on [object Promise]
+2024-10-14 23:47:07 [INFO]: Verifying the estimated retirement needs
+2024-10-14 23:47:07 [INFO]: Navigating to the retirement calculator page
+2024-10-14 23:47:11 [INFO]: Entering data for retirement calculation: invalideAge
+2024-10-14 23:47:11 [INFO]: Entered value '140' into [object Promise]
+2024-10-14 23:47:12 [INFO]: Entered value '130' into [object Promise]
+2024-10-14 23:47:12 [INFO]: Entered value '400' into [object Promise]
+2024-10-14 23:47:12 [INFO]: Entered value '25000' into [object Promise]
+2024-10-14 23:47:12 [INFO]: Entered value '25' into [object Promise]
+2024-10-14 23:47:13 [INFO]: Entered value '6' into [object Promise]
+2024-10-14 23:47:13 [INFO]: Entered value '8' into [object Promise]
+2024-10-14 23:47:13 [INFO]: Submitting the retirement calculator form
+2024-10-14 23:47:13 [INFO]: submitting the retirement calculator form
+2024-10-14 23:47:13 [INFO]: Clicked on [object Promise]
+2024-10-14 23:47:13 [INFO]: Checking error messages for age fields
+2024-10-14 23:47:13 [INFO]: Text from [object Promise] is ''
+2024-10-14 23:47:13 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-14 23:47:13 [INFO]: Checking error messages
+2024-10-14 23:47:13 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-14 23:47:13 [INFO]: Navigating to the retirement calculator page
+2024-10-14 23:47:16 [INFO]: Entering data for retirement calculation: invalideRetireage
+2024-10-14 23:47:16 [INFO]: Entered value '149' into [object Promise]
+2024-10-14 23:47:16 [INFO]: Entered value '121' into [object Promise]
+2024-10-14 23:47:17 [INFO]: Entered value '500' into [object Promise]
+2024-10-14 23:47:17 [INFO]: Entered value '30000' into [object Promise]
+2024-10-14 23:47:17 [INFO]: Entered value '50' into [object Promise]
+2024-10-14 23:47:17 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 23:47:18 [INFO]: Entered value '5' into [object Promise]
+2024-10-14 23:47:18 [INFO]: Submitting the retirement calculator form
+2024-10-14 23:47:18 [INFO]: submitting the retirement calculator form
+2024-10-14 23:47:18 [INFO]: Clicked on [object Promise]
+2024-10-14 23:47:18 [INFO]: Checking error messages for age fields
+2024-10-14 23:47:18 [INFO]: Text from [object Promise] is ''
+2024-10-14 23:47:18 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-14 23:47:18 [INFO]: Checking error messages
+2024-10-14 23:47:18 [INFO]: Text from [object Promise] is 'Age cannot be greater than 120'
+2024-10-14 23:47:18 [INFO]: Navigating to the retirement calculator page
+2024-10-14 23:47:20 [INFO]: Entering data for retirement calculation: validUser
+2024-10-14 23:47:21 [INFO]: Entered value '30' into [object Promise]
+2024-10-14 23:47:21 [INFO]: Entered value '65' into [object Promise]
+2024-10-14 23:47:21 [INFO]: Entered value '150000' into [object Promise]
+2024-10-14 23:47:21 [INFO]: Entered value '0' into [object Promise]
+2024-10-14 23:47:22 [INFO]: Entered value '788888' into [object Promise]
+2024-10-14 23:47:22 [INFO]: Entered value '999889' into [object Promise]
+2024-10-14 23:47:22 [INFO]: Entered value '10' into [object Promise]
+2024-10-14 23:47:22 [INFO]: Selecting Social Security benefits and marital status
+2024-10-14 23:47:27 [INFO]: Clicked on [object Promise]
+2024-10-14 23:47:27 [INFO]: Entering Social Security override amount
+2024-10-14 23:47:27 [INFO]: Entered value '3999' into [object Promise]
+2024-10-14 23:47:27 [INFO]: Submitting the retirement calculator form
+2024-10-14 23:47:27 [INFO]: submitting the retirement calculator form
+2024-10-14 23:47:28 [INFO]: Clicked on [object Promise]
+2024-10-14 23:47:28 [INFO]: Verifying the estimated retirement needs
+2024-10-14 23:47:28 [INFO]: Navigating to the retirement calculator page
+2024-10-14 23:47:30 [INFO]: Selecting "Yes" for social security field
+2024-10-14 23:47:31 [INFO]: Verifying if social security fields are visible
+2024-10-14 23:47:32 [INFO]: Social security fields are visible as expected
+2024-10-14 23:47:32 [INFO]: Navigating to the retirement calculator page
+2024-10-14 23:47:37 [INFO]: Selecting "No" for social security field
+2024-10-14 23:47:37 [INFO]: Verifying if social security fields are not visible
+2024-10-14 23:47:37 [INFO]: Social security fields are hidden as expected

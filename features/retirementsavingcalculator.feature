@@ -1,48 +1,47 @@
 Feature: retirement saving calculator page
 
   @postivetest_TC
-  Scenario Outline: Calculate retirement needs without maritial status and social security income
+  Scenario Outline: Calculate retirement needs with marital status/single maritial status people and social security income
     Given User opens the retirement calculator page
     When User enters the "<retirementData>"
-    When User submits the retirement calculator form
+    And User submits the retirement calculator form
     Then User should see the estimated retirement needs
 
     Examples:
-      | retirementData |
-      | validuser1     |
+      | retirementData   |
+      | validSingleUser  |
+      | validMarriedUser |
 
- @negative_TC
-  Scenario Outline: Calculate retirement need with  using of invalid age credentials
+  @negative_TC
+  Scenario Outline: User checking the error message for retirement calculator with different set of invalid age data.
     Given User opens the retirement calculator page
     When User enters the "<retirementData>"
-    When User submits the retirement calculator form
-    Then User should see the error messages in current age and retirement age fields
+    And User submits the retirement calculator form
+    Then user should see the error message for " currentAge|RetirementInvalid " fields
 
     Examples:
       | retirementData    |
-      | invalideage       |
-      | invalideretireage |
+      | invalideAge       |
+      | invalideRetireage |
 
-  Scenario Outline: Calculate retirement needs with maritial status and social security income
+  Scenario Outline: Calculate retirement needs single marital status people
     Given User opens the retirement calculator page
     When User enters the "<retirementData>"
     Then User should click Social Security benefits and choose marital status
     Then User should enter the Social Security override amount
-    When User submits the retirement calculator form
+    And User submits the retirement calculator form
     Then User should see the estimated retirement needs
 
     Examples:
       | retirementData |
-      | validuser2     |
+      | validUser      |
 
-  Scenario Outline: Calculate retirement needs single maritial status people
+  Scenario: user selects social security option as enable on pre-retirement calculator page
     Given User opens the retirement calculator page
-    When User enters the "<retirementData>"
-    Then User should click Social Security benefits and choose marital status
-    Then User should enter the Social Security override amount
-    When User submits the retirement calculator form
-    Then User should see the estimated retirement needs
+    When user selects social security field as "yes" on pre-retirement calculator
+    Then user should "see" social security fields as visible
 
-    Examples:
-      | retirementData |
-      | validuser3     |
+  Scenario: user selects social security option as disable on pre-retirement calculator page
+    Given User opens the retirement calculator page
+    When user selects social security field as "no" on pre-retirement calculator
+    Then user should "not see" social security fields as visible

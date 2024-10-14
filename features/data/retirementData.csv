@@ -1,6 +1,6 @@
 retirementData,currentAge,retirementAge,currentIncome,spouseIncome,retirementSavings,contributionPercent,increaseRateOfSavings,socialSecurityAmount
-invalideage,140,130,400,25000,25,6,8,,
-invalideretireage,149,121,500,30000,50,10,5,,
-validuser1,55,65,500000,30000,5000000,10,5,,
-validuser2,40,65,20000,89999,667778,78,10,100
-validuser3,30,65,150000,0,788888,999889,10,3999
+invalideAge,140,130,400,25000,25,6,8,,
+invalideRetireage,149,121,500,30000,50,10,5,,
+validSingleUser,55,65,500000,30000,5000000,10,5,,
+validMarriedUser,40,65,20000,89999,667778,78,10,100
+validUser,30,65,150000,0,788888,999889,10,3999
