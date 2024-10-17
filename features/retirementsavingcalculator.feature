@@ -1,23 +1,31 @@
 Feature: retirement saving calculator page
 
-  @postivetest_TC
-  Scenario Outline: Calculate retirement needs with marital status/single maritial status people and social security income
+  Scenario Outline: Update the form with default values
     Given User opens the retirement calculator page
-    When User enters the "<retirementData>"
+    When User enters the "<retirementData>" with default values "<useDefault>"
     And User submits the retirement calculator form
     Then User should see the estimated retirement needs
 
     Examples:
-      | retirementData   |
-      | validSingleUser  |
-      | validMarriedUser |
+      | retirementData   | useDefault |
+      | requireFieldUser | true       |
+      | requireFieldUser | false      |
 
-  @negative_TC
+  Scenario Outline: Calculate retirement needs with marital status/single maritial status people and social security income
+    Given User opens the retirement calculator page
+    When User enters the "<retirementData>"
+    And User submits the retirement calculator form with "<>"
+    Then User should see the estimated retirement needs
+
+    Examples:
+      | retirementData   |
+      | requireFieldUser |
+
   Scenario Outline: User checking the error message for retirement calculator with different set of invalid age data.
     Given User opens the retirement calculator page
     When User enters the "<retirementData>"
     And User submits the retirement calculator form
-    Then user should see the error message for " currentAge|RetirementInvalid " fields
+    Then User should see the error message for invalid fields
 
     Examples:
       | retirementData    |
@@ -27,14 +35,14 @@ Feature: retirement saving calculator page
   Scenario Outline: Calculate retirement needs single marital status people
     Given User opens the retirement calculator page
     When User enters the "<retirementData>"
-    Then User should click Social Security benefits and choose marital status
-    Then User should enter the Social Security override amount
+    Then User should click Social Security benefits and choose "<maritalStatus>" option and enter the amount
     And User submits the retirement calculator form
     Then User should see the estimated retirement needs
 
     Examples:
-      | retirementData |
-      | validUser      |
+      | retirementData   | maritalStatus |
+      | requireFieldUser | single        |
+      | requireFieldUser | married       |
 
   Scenario: user selects social security option as enable on pre-retirement calculator page
     Given User opens the retirement calculator page

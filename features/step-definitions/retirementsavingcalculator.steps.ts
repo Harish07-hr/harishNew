@@ -22,11 +22,13 @@ Then('User should see the estimated retirement needs', async () => {
     await retirementSavingCalculator.reslutMessage.isDisplayed();
 });
 
-Then('user should see the error message for " currentAge|RetirementInvalid " fields', async () => {
 
-    logger.info('Checking error messages for age fields');
+
+Then(`User should see the error message for invalid fields`, async () => {
+    logger.info(`Verifying error message for the field`);
     await retirementSavingCalculator.validateAgeErrorMessages();
 });
+
 
 When('User enters the {string}', async (retirementData: string) => {
     logger.info(`Entering data for retirement calculation: ${retirementData}`);
@@ -34,12 +36,7 @@ When('User enters the {string}', async (retirementData: string) => {
     await retirementSavingCalculator.enterRetirementCalculatorForm(userData);
 });
 
-Then('User should enter the Social Security override amount', async () => {
-    logger.info('Entering Social Security override amount');
-    await retirementSavingCalculator.enterText(retirementSavingCalculator.Securityoverrideamount, userData.socialSecurityAmount);
-});
-
-Then('User should click Social Security benefits and choose marital status', async () => {
+Then('User should click Social Security benefits and choose {string} option and enter the amount', async (buttonOption: string) => {
     logger.info('Selecting Social Security benefits and marital status');
 
     await browser.execute(() => {
@@ -48,40 +45,33 @@ Then('User should click Social Security benefits and choose marital status', asy
             radioButton.click();
         }
     });
-
-    const radiomaritalStatusButton = retirementSavingCalculator.maritalStatus;
-    await radiomaritalStatusButton.scrollIntoView();
-    await retirementSavingCalculator.clickElement(radiomaritalStatusButton);
-
-});
-
-
-When(/^user selects social security field as "yes" on pre-retirement calculator$/, async () => {
-    logger.info('Selecting "Yes" for social security field');
-    await retirementSavingCalculator.seacurityYesButton.click();
-});
-
-Then(/^user should "see" social security fields as visible$/, async () => {
-    logger.info('Verifying if social security fields are visible');
-    const isVisible = await retirementSavingCalculator.socialSecurityFields.isDisplayed();
-    if (isVisible) {
-        logger.info('Social security fields are visible as expected');
-    } else {
-        logger.error('Social security fields are NOT visible');
+    switch (buttonOption) {
+        case 'single':
+            await retirementSavingCalculator.enterText(retirementSavingCalculator.SecurityOverrideamount, userData.socialSecurityAmount);
+            break;
+        case 'married':
+            const radioMaritalStatusButton = retirementSavingCalculator.maritalStatus;
+            await radioMaritalStatusButton.scrollIntoView();
+            await retirementSavingCalculator.clickElement(radioMaritalStatusButton);
+            await retirementSavingCalculator.enterText(retirementSavingCalculator.SecurityOverrideamount, userData.socialSecurityAmount);
+            break;
     }
+
 });
 
-When(/^user selects social security field as "no" on pre-retirement calculator$/, async () => {
-    logger.info('Selecting "No" for social security field');
-    await retirementSavingCalculator.securityNoButton.click();
+
+When('user selects social security field as {string} on pre-retirement calculator', async (toggleButton: string) => {
+    logger.info(`Selecting social security option: ${toggleButton}`);
+    await retirementSavingCalculator.toggleSocialSecurity(toggleButton);
 });
 
-Then(/^user should "not see" social security fields as visible$/, async () => {
-    logger.info('Verifying if social security fields are not visible');
-    const isVisible = await retirementSavingCalculator.socialSecurityFields.isDisplayed();
-    if (!isVisible) {
-        logger.info('Social security fields are hidden as expected');
-    } else {
-        logger.error('Social security fields are still visible');
-    }
+Then('user should {string} social security fields as visible', async (enableFlag: string) => {
+    logger.info(`Verifying social security fields visibility`);
+    await retirementSavingCalculator.toggleSocialSecurity(enableFlag);
+});
+
+When(`User enters the {string} with default values {string}`, async (retirementData: string, useDefault: string) => {
+    userData = await getDataForUser(getCSVFilePath('retirementData.csv'), retirementData);
+    const useDefaultFlag = useDefault === 'true';
+    await retirementSavingCalculator.enterRetirementCalculatorForm(userData, useDefaultFlag);
 });
